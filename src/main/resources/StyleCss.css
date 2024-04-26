@@ -1,0 +1,37 @@
+/* Styles pour les boutons */
+.button {
+    -fx-background-color: #4CAF50; /* Couleur de fond */
+    -fx-text-fill: white; /* Couleur du texte */
+    -fx-font-size: 14px; /* Taille de la police */
+    -fx-font-weight: bold; /* Gras */
+    -fx-padding: 8px 16px; /* Remplissage intérieur */
+    -fx-background-radius: 5px; /* Bordures arrondies */
+    -fx-border-radius: 5px; /* Bordures arrondies */
+    -fx-border-color: transparent; /* Couleur de la bordure */
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.5) , 10,0,0,1 ); /* Ombre */
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* Couleur de fond au survol */
+}
+
+/* Styles pour les textfields */
+.text-field {
+    -fx-background-color: #f2f2f2; /* Couleur de fond */
+    -fx-border-color: #ccc; /* Couleur de la bordure */
+    -fx-border-width: 1px; /* Largeur de la bordure */
+    -fx-border-radius: 3px; /* Bordures arrondies */
+    -fx-pref-height: 30px; /* Hauteur préférée */
+    -fx-font-size: 14px; /* Taille de la police */
+    -fx-padding: 5px; /* Remplissage intérieur */
+}
+
+.text-field:focus {
+    -fx-border-color: #4CAF50; /* Couleur de la bordure au focus */
+    -fx-border-width: 2px; /* Largeur de la bordure au focus */
+}
+
+/* Style pour le fond de l'interface */
+.root {
+    -fx-background-color: #f9f9f9; /* Couleur de fond */
+}
